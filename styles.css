@@ -1,5 +1,12 @@
+html {
+    scroll-behavior: smooth;
+  }
+.headings{
+   color: #dd4b39;
+}  
 nav{
-    background-image: linear-gradient(to right, #720e9e 0,#dd4b39 100%);      
+    background-image: linear-gradient(to right, #720e9e 0,#dd4b39 100%); 
+        
 }
 
 nav a{
@@ -11,8 +18,11 @@ nav a{
   }
   
 .jumbotron{
+    margin-bottom: 30px;
+    padding: 70px 10px 10px 10px;
     background-image: linear-gradient(to right, #720e9e 0,#dd4b39 100%);
     color: floralwhite;
+   
 
 }
 .header{
@@ -25,7 +35,67 @@ footer{
     padding: 20px 0px 20px 0px;
 
 }
-
-.to_be_removed{
-    padding: 50px;
+.tiles{
+    padding: 10px 10px 0px 10px;
+    border: 3px solid #720e9e;
 }
+.pp{
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.tiles p{
+    color: #720e9e; 
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: large;  
+    margin: -3px;
+}
+a:hover{
+    text-decoration: none;
+}
+.tiles:hover
+    {
+      -moz-box-shadow: 0 0 20px #ccc;
+      -webkit-box-shadow: 0 0 20px #ccc;
+      box-shadow: 0 0 20px #ccc;
+      opacity: 0.5;
+    }
+
+.row-content{
+    padding: 10px;
+    margin: 30px 30px 30px 30px;
+}
+.carousel{
+    background: #512DA8;
+  }
+  
+  .carousel-item{
+    height: 300px;
+    
+  }
+  
+  .carousel-item img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 300px;
+    width: 300px;
+  }
+  #sectors{
+      padding-top: 50px;
+  }
+
+  .card{
+      height: 230px;
+      margin: -50px 0px 0px 0px;
+  }
+
+  .card-header{
+    background-image: linear-gradient(to right, #720e9e 0,#dd4b39 100%);
+    color: floralwhite;
+  }
+  .card-body{
+     background-color: #ecdcf3; 
+  }
+  .card-button{
+      background-color: #dd4b39;
+  }
