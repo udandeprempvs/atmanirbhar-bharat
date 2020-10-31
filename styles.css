@@ -101,6 +101,9 @@ a:hover{
   #goal{
     padding-top: 50px;
 }
+#ai{
+  padding-top: 50px;
+}
 .goalcard{
     padding: 10px 10px 10px 10px;
 }
@@ -125,13 +128,14 @@ a:hover{
      background-color: #ecdcf3; 
   }
   .card-button{
-      background-color: #dd4b39;
+      background-color:#e95542;
   }
   .card-button:hover{
     -moz-box-shadow: 0 0 20px rgb(97, 94, 94);
     -webkit-box-shadow: 0 0 20px rgb(97, 94, 94);
     box-shadow: 0 0 20px rgb(97, 94, 94);
-    background-color: #fc6e5c;
+    background-color: black;
+    color: #e95542;
     font-size: large;
   }
 
