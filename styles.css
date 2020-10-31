@@ -9,6 +9,18 @@ nav{
         
 }
 
+.modal-header{
+  background-image: linear-gradient(to right, #720e9e 0,#dd4b39 100%); 
+  color: floralwhite
+}
+
+.modal-body{
+  background-color:  #debaee;
+}
+
+.navbar-text{
+  padding: 10px;
+}
 nav a{
     color: floralwhite;
 }
@@ -63,10 +75,12 @@ a:hover{
 }
 .carousel{
     background: #512DA8;
+    border: 15px solid #dd4b39;
   }
   
   .carousel-item{
     height: 300px;
+    
     
   }
   
@@ -80,6 +94,7 @@ a:hover{
   #sectors{
       padding-top: 50px;
   }
+
   #goal{
     padding-top: 50px;
 }

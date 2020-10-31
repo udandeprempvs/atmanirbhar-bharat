@@ -1,0 +1,63 @@
+nav{
+    background-image: linear-gradient(to right, #720e9e 0,#dd4b39 100%); 
+            
+}
+.carousel{
+    margin-top: 68px;
+    margin-bottom: 150px;
+    border: 15px solid  #80342a;
+    
+}
+.nav-tabs{
+    background-image: linear-gradient(to right, #720e9e 0,#dd4b39 100%);
+     
+    
+}
+.nav-link{
+    color: floralwhite;
+}
+.navsc-link:hover{
+    color: floralwhite;
+    -moz-box-shadow: 0 0 20px rgb(97, 94, 94);
+    -webkit-box-shadow: 0 0 20px rgb(97, 94, 94);
+    box-shadow: 0 0 20px rgb(97, 94, 94);
+}
+
+.carousel-item{
+    height: 400px;
+    
+  }
+  #idea{
+    padding-top: 50px;
+  }
+  #facts{
+    padding-top: 50px;
+}
+#schemes{
+    padding-top: 50px;
+}
+.carousel-item img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 400px;
+    width: 100%
+  }
+  .tab-pane{
+      background-color:  #ecdcf3;
+      padding: 20px;
+  }
+
+  .ideah{
+    background-image: inherit;
+    color: blue;
+  }
+  .ideab{
+     background-color: #ecdcf3; 
+  }
+  form{
+      padding: 20px;
+  }
+  footer{
+      margin-top:  30px;
+  }
