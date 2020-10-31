@@ -17,9 +17,12 @@ nav{
 .modal-body{
   background-color:  #debaee;
 }
-
+.nav-link{
+  font-size: large;
+}
 .navbar-text{
   padding: 10px;
+  font-size: large;
 }
 nav a{
     color: floralwhite;
