@@ -40,12 +40,10 @@ def predict():
 #     print(int_features)
 #     print(final)
 #     prediction=model.predict_proba(final)
-#     output='{0:.{1}f}'.format(prediction[0][1], 2)
-#     if output>str(0.5):
-#         return render_template('agri.html',pred='Your Forest is in Danger.\nProbability of fire occuring is {}'.format(output),bhai="kuch karna hain iska ab?")
-#     else:
-#         return render_template('agri.html',pred='Your Forest is safe.\n Probability of fire occuring is {}'.format(output),bhai="Your Forest is Safe for now")
-
+#     output='{0:}'.format(prediction[0][1], 2)
+# 
+#         return render_template('agri.html',pred='The procuction is {}'.format(output),bhai="")
+#     
 
 if __name__ == '__main__':
     app.run(debug=True)

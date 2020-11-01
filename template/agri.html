@@ -400,7 +400,7 @@
             <h3>Predict Alternate Crop</h3>
           </div>
           <div class="col-12">
-            <form>
+            <form  action='/predict' method="post" >
               <div class="form-group row">
                 <label for="firstname" class="col-md-3 col-form-label"
                   >Temperature</label
@@ -507,6 +507,7 @@
                 </div>
               </div>
             </form>
+            {{pred}}
           </div>
           <div class="col-12 col-md"></div>
         </div>
@@ -521,7 +522,7 @@
             <h3>Predict Expenditure, Selling Price and Profit</h3>
           </div>
           <div class="col-12">
-            <form>
+            <form  action='/predict1' method="post" >
               <div class="form-group row">
                 <label for="firstname" class="col-md-3 col-form-label"
                   >Temperature</label
